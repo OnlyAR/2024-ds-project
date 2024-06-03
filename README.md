@@ -46,19 +46,25 @@ git clone git@github.com:OnlyAR/2024-ds-project.git
 需要将 `main.c` 编译到 `data/` 目录下，生成可执行文件。首先进入项目根目录 `2024-ds-project/`，然后执行：
 
 ```bash
-gcc src/main.c -o data/main -std=c99
+gcc src/main.c -o data/main -std=c99 -DDEBUG
 ```
 
 > 如果你的电脑找不到 `gcc` 命令，可以将 `gcc` 所在目录添加进环境变量 Path 中：[教程](https://blog.csdn.net/weixin_45684731/article/details/132915568)
 
 ### 2.4 执行
 
+# 先进入 `data/` 目录：
+
+```bash
+cd data
+```
+
 ```bash
 # Windows 系统
-./data/main.exe
+.\main.exe
 
 # 其他操作系统
-./data/main
+./main
 ```
 
 ### 2.5 查看运行结果
