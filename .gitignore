@@ -1,0 +1,13 @@
+# 竞速代码和题面
+assets/
+src/opt.c
+
+# 可执行文件
+**/main
+**/*.exe
+
+# 日志
+**/*.log
+
+# CLion
+.idea/
