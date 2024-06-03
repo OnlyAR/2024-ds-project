@@ -53,7 +53,7 @@ gcc src/main.c -o data/main -std=c99 -DDEBUG
 
 ### 2.4 执行
 
-# 先进入 `data/` 目录：
+先进入 `data/` 目录：
 
 ```bash
 cd data
